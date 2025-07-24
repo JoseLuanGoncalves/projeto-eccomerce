@@ -108,7 +108,7 @@
 
 @media(min-width: 1400px) {
     .cabecalho .menu-principal ul li a {
-        max-width: 1400px;
+        max-width: 1170px;
         margin: 0 auto;
     }
 }
