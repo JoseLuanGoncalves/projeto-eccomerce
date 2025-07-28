@@ -1,21 +1,28 @@
 :root {
-    --cor-neutra-escura: #111111;
-    --cor-neutra-clara: #ffffff;
-    --cor-primaria: #6528D3;
-    --cor-primaria-hover: #834de8;
-    --cor-cinza-escuro: #29272a;
-    --cor-cinza-claro: #EDEDED;
-    --cor-roxa-claro: #BCA2ED;
+  --cor-neutra-escura: #111111;
+  --cor-neutra-clara: #ffffff;
+  --cor-primaria: #6528d3;
+  --cor-primaria-hover: #834de8;
+  --cor-cinza-escuro: #29272a;
+  --cor-cinza-claro: #ededed;
+  --cor-roxa-claro: #bca2ed;
 }
 body {
-    font-family: 'Roboto', sans-serif;
-    background-color: var(--cor-neutra-escura);
-    color: #333;
-    min-height: 100vh;
-    display: grid;
-    grid-template-rows: auto 1fr auto;
-    grid-template-areas: 
-        "header"
-        "main"
-        "footer";
+  font-family: "Roboto", sans-serif;
+  background-color: var(--cor-neutra-escura);
+  color: #333;
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  grid-template-areas:
+    "header"
+    "main"
+    "footer";
+}
+
+.th-produto,
+.th-total,
+.td-produto,
+.td-preco-total {
+  display: none;
 }
